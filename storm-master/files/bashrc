@@ -1,0 +1,5 @@
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export ZOOKEEPER_HOME=/root/zookeeper-3.4.10
+export STORM_HOME=/root/storm-1.0.5
+export PATH=$PATH:$ZOOKEEPER_HOME/bin:$STORM_HOME/bin
+CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib.tools.jar
